@@ -27,7 +27,6 @@ public class Fraction {
     }
 
     public Fraction addition(Fraction f1) {
-//        System.out.println("called addition");
         int addNum = (f1.getNumerator() * denominator) + (numerator * f1.getDenominator());
         int addDen = (f1.getDenominator() * denominator);
         Fraction result = new Fraction(addNum, addDen);
@@ -35,7 +34,6 @@ public class Fraction {
     }
 
     public Fraction subtraction(Fraction f1) {
-//        System.out.println("called sub");
         int subNum = (f1.getNumerator() * denominator) - (numerator * f1.getDenominator());
         int subDen = (f1.getDenominator() * denominator);
         Fraction result = new Fraction(subNum, subDen);
@@ -43,7 +41,6 @@ public class Fraction {
     }
 
     public Fraction multiplication(Fraction f1) {
-//        System.out.println("called multiply");
         int multNum = (f1.numerator * numerator);
         int multDen = (f1.denominator * denominator);
         Fraction result = new Fraction(multNum, multDen);
@@ -51,7 +48,6 @@ public class Fraction {
     }
 
     public Fraction division(Fraction f1) {
-//        System.out.println("called division");
         int divNum = (f1.numerator * denominator);
         int divDen = (f1.denominator * numerator);
         Fraction result = new Fraction(divNum, divDen);
@@ -59,7 +55,6 @@ public class Fraction {
     }
 
     public String toString() {
-//        System.out.println("toString called");
         return getNumerator() + "/" + getDenominator();
     }
 

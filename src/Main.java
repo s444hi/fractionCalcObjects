@@ -135,34 +135,5 @@ public class Main {
                 cont = false;
             }
         }
-
-
-//        // add test
-//        Fraction f1 = new Fraction(1, 2);
-//        Fraction f2 = new Fraction(1, 2);
-//
-//        Fraction resultAdd = f1.addition(f2);
-//        System.out.println(resultAdd);
-//
-//        // sub test
-//        Fraction f3 = new Fraction(10, 25);
-//        Fraction f4 = new Fraction(4, 25);
-//
-//        Fraction resultSub = f4.subtraction(f3);
-//        System.out.println(resultSub);
-//
-//        // multiply test
-//        Fraction f5 = new Fraction(10, 2);
-//        Fraction f6 = new Fraction(6, 70);
-//
-//        Fraction resultMult = f6.multiplication(f5);
-//        System.out.println(resultMult);
-//
-//        // division test
-//        Fraction f7 = new Fraction(24, 32);
-//        Fraction f8 = new Fraction(40, 16);
-//
-//        Fraction resultDiv = f8.division(f7);
-//        System.out.println(resultDiv);
     }
 }
